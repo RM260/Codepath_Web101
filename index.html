@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images\Logo\3.png">
+    <title>VerdeLuz</title> <!-- the content here will only show in the tab and in the metadata about the page -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body> 
+    <!--- Headings --->
+    <div class="navbar">
+        <a href="#header"><img src="images\Logo\logo.png" alt="VerdeLuz"/></a>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">Who We Are</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#petition">Sign Up</a></li>
+          <li><button id="toggle-dark-mode">Dark Mode</button></li>
+          <li><button id="reduce-motion">Reduce Motion</button></li>
+        </ul>
+      </div>
+
+    <div class="header revealable" id="header">
+        <div id="header-left">
+            <h3>conscious</h3>
+            <h2>Be More</h2>
+            <h3>green</h3>
+        </div>
+        <div id="header-right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_cWZRdbXIFo?si=MiaApzH3H2lJGHLy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="header-button">
+                <button type="button">More Info</button>
+                <button type="button">Projects</button>
+            </div>
+        </div>
+    </div>
+
+    <!--- About --->
+    <div class="about revealable" id="about">
+        <div id="about-box">
+            <h2>About Us</h2>  <!-- change to 3-4 sentences -->
+            <p>Puerto Rico is facing severe environmental challenges due to climate change and degradation, 
+                including rising temperatures, stronger hurricanes, coastal erosion, and loss of biodiversity. Given Puerto Rico's unique geography,
+                the island is particularly susceptible to climate-related disasters, and without effective action, the consequences will worsen over
+                time.
+            </p>
+            <p>The degradation of ecosystems disrupts agriculture, reduces water quality, and diminishes biodiversity, 
+                all of which are essential for the island’s sustainability. Additionally, climate change aggravates socio-economic inequalities,
+                as the most vulnerable communities often bear the brunt of environmental damage.</p>
+            <p>Educating Puerto Rican children about environmental issues and climate change is more important than ever.
+                By teaching students sustainable practices, we can empower the next generation to protect the environment, build resilience, 
+                and secure a brighter, sustainable future for Puerto Rico.</p> 
+            </p>
+        </div>
+    </div>
+
+    <!--- Data --->
+
+    <!-- 
+    <h3>Data about my topic</h3>
+    <img src="" />
+    <h4>Add some charts + captions that illustrate my topic and why it is a problem </h4>
+
+    <ul>
+        <li> less than 15%</li>
+        <li> 15%-25%</li>
+        <li> 25%-35%</li>
+        <li> 35%-45%</li>
+        <li> >45%</li>
+    </ul> 
+    -->
+
+    <!--- Impact --->
+    <div class="impact revealable">
+        <h2>Impacts of Climate Change</h2>
+    
+        <div class="impact-left">
+            <img src="images/huracan.jpg" alt="Hurricane Maria">
+            <div class="box-wrapper">
+                <div class="box-shadow"></div>
+                <div class="content-box">
+                    <h3>Weather Events</h3>
+                    <p>Puerto Rico is increasingly facing stronger hurricanes and tropical storms as a result of climate change. Warmer ocean temperatures fuel more intense storms, 
+                       leading to severe destruction of infrastructure, homes, and power grids. Extreme rainfall from these storms also causes dangerous flooding and landslides, 
+                       further complicating recovery efforts. The intensification of these weather events places additional strain on emergency preparedness and recovery systems, 
+                       making it harder for communities to bounce back.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="impact-right">
+            <img src="images/erosion_playa1.png" alt="Coastal Erosion">
+            <div class="box-wrapper">
+                <div class="box-shadow"></div>
+                <div class="content-box">
+                    <h3>Ecosystems and Biodiversity</h3>
+                    <p>Rising sea levels and frequent storms are eroding Puerto Rico's coastlines, threatening homes and natural habitats. Coastal areas are experiencing more severe flooding, 
+                       displacing communities and contaminating water supplies.
+                    </p>
+                    <p>Additionally, Puerto Rico's unique biodiversity, including the iconic coquí frog, is at risk due to rising temperatures and habitat changes. Heat and altered rainfall 
+                       patterns are disrupting ecosystems, driving species closer to extinction and reducing the island's rich biodiversity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="impact-left">
+            <img src="images/platanal.png" alt="Platanal">
+            <div class="box-wrapper">
+                <div class="box-shadow"></div>
+                <div class="content-box">
+                    <h3>Agriculture</h3>
+                    <p>Puerto Rico’s agriculture is highly sensitive to changing climate conditions. Shifts in rainfall, prolonged droughts, and more extreme weather can reduce crop yields, 
+                        while warmer temperatures invite new pests and diseases that threaten food security. Small-scale farmers, who are vital to the island's agricultural economy, 
+                        lack the resources to easily adapt to these changes, putting both food supply and local livelihoods at risk.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="news revealable" id="news">
+        <h2>News</h2>
+        <div class="news-articles">
+            <article>
+                <img src="images/coqui.jpg" alt="Puertorrican Coquí"/>
+                <div class="content">
+                    <h4><a href="https://wildlifemanagement.institute/outdoor-news-bulletin/june-2021/eleutherodactylus-coqui-chronicle-conservation-collaboration">Eleutherodactylus Coquí - A Chronicle of Conservation Collaboration</a></h4>
+                    <p>Projected temperature and precipitation changes from climate change, along with habitat fragmentation and other effects of land use change threaten the long-term persistence of coquí frogs and other species on the island of Puerto Rico.</p>
+                </div>
+            </article>
+            <article>
+                <img src="images/coqui.jpg" alt="Puertorrican Coquí"/>
+                <div class="content">
+                    <h4><a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature">Climate Chage: Global Temperature</a></h4>
+                    <p>Summary or intro of blog</p>
+                </div>
+            </article>
+            <article>
+                <img src="images/coqui.jpg" alt="Puertorrican Coquí"/>
+                <div class="content">
+                    <h4><a href=" ">Blog Title</a></h4>
+                    <p>Summary or intro of blog</p>
+                </div>
+            </article>
+        </div>
+    </div>
+
+<!-- Sign Up | Petition -->
+    <div class="petition revealable" id="petition">
+        <h2>Sign Our Petition</h2>
+        <div class="petition-container">
+            <div class="petition-info">
+                <div class="petition-para">
+                    <p>Imagine a future where children are so disconnected from nature that they no longer enjoy fresh air, or where the tree you once loved watching bloom no longer does so due to excessive heat. Because of people's ignorance or disinterest in the environment, global warming has accelerated rapidly, even faster than the estimated 30 years from the beginning of the millennium (2000s-2030s).</p>
+                    <p>This rapid change has severely impacted Puerto Rico's wildlife, with species like the cucubano and the coquí declining significantly each year. Erratic climate patterns also threaten agriculture. Many organizations are working hard to restore nature through education, but it is crucial to start by fostering a love and respect for the environment. We invite you to support this initiative and help bring environmental education to the forefront of our schools.</p>
+                </div>
+        
+                <div class="signatures">
+                    <p>🖊️ DJ from Brooklyn supports this.</p>
+                    <p>🖊️ Amy from Queens supports this.</p>
+                    <p>🖊️ Teresa from Harlem supports this.</p>
+                    <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+                </div>
+            </div>    
+            <form id="sign-petition" title="sign-petition">
+                <fieldset>
+                    <ol>
+                        <li><label for="fullname" >Full Name</label>
+                            <input type="text" id="fullname" required>
+                        </li>
+                        <li><label for="hometown">Hometown</label>
+                            <input type="text" id="hometown" required>
+                        </li>
+                        <li><label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </li>
+                    </ol>
+                    <button id="sign-up-button" type="button">Sign Now</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="links">
+            <div class="footer-col">
+                <h4>Organization</h4>
+                <ul>
+                    <li><a href = '#'>about us</a></li>
+                    <li><a href = '#'>projects</a></li>
+                    <li><a href = '#'>events</a> </li>
+                    <li><a href = '#news'>blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Join Us</h4>
+                <ul>
+                    <li><a href = '#contact'>contact us</a></li>
+                    <li><a href = '#'>partner with us</a></li>
+                    <li><a href = '#'>volunteer</a></li>
+                    <li><a href = '#'>donate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class='social-icons'>
+                    <a href="https://facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter"></a>
+                    <a href="https://instagram.com" class="fa fa-instagram"></a>
+                </div>
+            </div> 
+        </div>
+        <p>&copy; 2024 VerdeLuz. All rights reserved.</p>
+    </div>
+
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+        <div class="modal-content">
+        <div id="modal-text-container">
+            <p id="thanks-modal-content">Placeholder</p>
+            <button id="close-modal-btn">Close</button>
+        </div>
+        <img src="images/thankyou.png" id="modal-img" alt="thank you!"/>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
